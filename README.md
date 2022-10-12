@@ -1,7 +1,7 @@
 # Getting Started with Create React App
 
 App is live at <br>
-<a href="williamrogers.dev"></a>
+<a href="williamrogers.dev">williamrogers.dev</a>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
