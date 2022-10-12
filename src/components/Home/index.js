@@ -15,7 +15,6 @@ import './index.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import Logo from './Logo'
 
-
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
   const nameArray = [
@@ -33,6 +32,7 @@ const Home = () => {
     'g',
     'e',
     'r',
+    's',
   ]
   const jobArray = [
     's',
