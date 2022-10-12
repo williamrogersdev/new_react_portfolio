@@ -3,7 +3,6 @@
 App is live at <br>
 <a href="https://williamrogers.dev">williamrogers.dev</a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
