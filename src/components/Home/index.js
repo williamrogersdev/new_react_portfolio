@@ -1,11 +1,12 @@
 import { useEffect, useState } from 'react'
 import {
-  faAngular,
+  
   faGitAlt,
   faLinux,
   faJsSquare,
   faReact,
   faPython,
+  faSass,
 } from '@fortawesome/free-brands-svg-icons'
 import Loader from 'react-loaders'
 import { Link } from 'react-router-dom'
@@ -93,7 +94,7 @@ const Home = () => {
         <div className="stage-cube-cont">
           <div className="cubespinner">
             <div className="face1">
-              <FontAwesomeIcon icon={faAngular} color="#DD0031" />
+              <FontAwesomeIcon icon={faSass} color="#DD0031" />
             </div>
             <div className="face2">
               <FontAwesomeIcon icon={faLinux} color="#000000" />
