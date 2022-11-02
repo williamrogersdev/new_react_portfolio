@@ -1,11 +1,11 @@
 import { useEffect, useState } from 'react'
 import {
   faAngular,
-  faCss3,
   faGitAlt,
-  faHtml5,
+  faLinux,
   faJsSquare,
   faReact,
+  faPython,
 } from '@fortawesome/free-brands-svg-icons'
 import Loader from 'react-loaders'
 import { Link } from 'react-router-dom'
@@ -82,24 +82,24 @@ const Home = () => {
             />
           </h1>
           <h2>
-            FullStack Developer | JavaScript | React | Node.js | C++ | Python{' '}
+            FullStack Developer | JavaScript | React | Node.js | Linux | C++ |
+            Python{' '}
           </h2>
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>
         </div>
         {/* <Logo /> */}
-
         <div className="stage-cube-cont">
           <div className="cubespinner">
             <div className="face1">
               <FontAwesomeIcon icon={faAngular} color="#DD0031" />
             </div>
             <div className="face2">
-              <FontAwesomeIcon icon={faHtml5} color="#F06529" />
+              <FontAwesomeIcon icon={faLinux} color="#000000" />
             </div>
             <div className="face3">
-              <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
+              <FontAwesomeIcon icon={faPython} color="#28A4D9" />
             </div>
             <div className="face4">
               <FontAwesomeIcon icon={faReact} color="#5ED4F4" />

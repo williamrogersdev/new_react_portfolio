@@ -1,11 +1,11 @@
 import { useEffect, useState } from 'react'
 import {
   faAngular,
-  faCss3,
   faGitAlt,
-  faHtml5,
   faJsSquare,
   faReact,
+  faPython,
+  faLinux,
 } from '@fortawesome/free-brands-svg-icons'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
@@ -46,7 +46,7 @@ const About = () => {
           </p>
           <p align="LEFT">
             After graduating college with a bachelors in computer science I have
-            gained experience working with JavaScript, React, Node, Python, and
+            gained experience working with JavaScript, React, Node, Python, Linux and
             C++
           </p>
         </div>
@@ -57,10 +57,10 @@ const About = () => {
               <FontAwesomeIcon icon={faAngular} color="#DD0031" />
             </div>
             <div className="face2">
-              <FontAwesomeIcon icon={faHtml5} color="#F06529" />
+              <FontAwesomeIcon icon={faLinux} color="#000000" />
             </div>
             <div className="face3">
-              <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
+              <FontAwesomeIcon icon={faPython} color="#28A4D9" />
             </div>
             <div className="face4">
               <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
