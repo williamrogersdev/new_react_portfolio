@@ -11,25 +11,24 @@ const Contact = () => {
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      setLetterClass('text-animate-hover');
-    }, 3000);
-    return () => clearTimeout(timer);
-  }, []);
+      setLetterClass('text-animate-hover')
+    }, 3000)
+    return () => clearTimeout(timer)
+  }, [])
 
   const sendEmail = (e) => {
     e.preventDefault()
 
-    emailjs
-      .sendForm('gmail', 'template_YeJhZkgb', form.current, 'your-token')
-      .then(
-        () => {
-          alert('Message successfully sent!')
-          window.location.reload(false)
-        },
-        () => {
-          alert('Failed to send the message, please try again')
-        }
-      )
+    emailjs.sendForm(
+      'service_2p2okf9',
+      'template_YeJhZkgb',
+      form.current,
+      'vUBE4XfXGp9acp7Va'
+    )
+    .then(() => {
+      alert('Message successfully sent!')
+      window.location.reload(false)
+    })
   }
 
   return (
