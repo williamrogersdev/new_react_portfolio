@@ -32,7 +32,7 @@ const Sidebar = () => {
         <NavLink
           activeclassname="active"
           className="about-link"
-          to="/about"
+          to="./about"
           onClick={() => setShowNav(false)}
         >
           <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
