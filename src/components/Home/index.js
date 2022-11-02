@@ -36,9 +36,14 @@ const Home = () => {
     's',
   ]
   const jobArray = [
-    'W',
+    'S',
+    'o',
+    'f',
+    't',
+    'w',
+    'a',
+    'r',
     'e',
-    'b',
     ' ',
     'd',
     'e',
