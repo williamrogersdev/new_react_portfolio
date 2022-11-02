@@ -33,17 +33,11 @@ const Home = () => {
     'e',
     'r',
     's',
-    ' ',
   ]
   const jobArray = [
-    's',
-    'o',
-    'f',
-    't',
-    'w',
-    'a',
-    'r',
+    'W',
     'e',
+    'b',
     ' ',
     'd',
     'e',
@@ -86,7 +80,6 @@ const Home = () => {
               strArray={jobArray}
               idx={21}
             />
-           
           </h1>
           <h2>
             FullStack Developer | JavaScript | React | Node.js | C++ | Python{' '}
