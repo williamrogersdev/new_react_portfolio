@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-App is live at <br>
+ Live at <br>
 <a href="https://williamrogers.dev">williamrogers.dev</a>
 
 
